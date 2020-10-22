@@ -12,15 +12,15 @@ Maybe you are thinking "Oh my God more one git article..."  and yep, it is more 
 
 ### Let's start to the beginning.
 
-In git we have a lot of powers and I will talk more about those  in future posts but now I'm want to show you how to configure shortcuts in git common scripts to improve your speed and give more control to you!
+In git we have a lot of powers and I will talk more about those  in future posts but now I want to show you how to configure shorthands in git common scripts to improve your speed and give more control to you!
 
-To create out shortcuts we will change our configuration file with --edit flag but one thing will happen , our loved and hated VIM will be called to edit... to avoid it to happen (sorry experts and old school devs whose love VIM) we need to change the default editor in git configuration.
+To create shorthands we will change our configuration file with --edit flag but one thing will happen , our loved and hated VIM will be called to edit it... to avoid it to happen (sorry experts and old school devs whose love VIM) we need to change the default editor in git configuration.
 
 ### Changing it :  
 
 `git config --global core.editor code`
 
-With this command we will use Vs Code to edit our git configurations globally.
+With this command we will use VsCode to edit our git configurations globally.
 
 ### GO GO GO
 
@@ -124,16 +124,16 @@ Very easy to understand and see what you need...
 after our shortcut that is the output of the command :
 
 ```bash 
-commit 38a0c81fee06c009be2a714b6551be5e5a3ce5e7 Author: fredd**** fredd@*(mailto:fredd@neosdev.com.br)*** Date:   Thu Oct 22 16:38:36 2020 +0100
+commit 38a0c81fee06c009be2a714b6551be5e5a3ce5e7 Author: fredd**** fredd@*(mailto:fredd@**********)*** Date:   Thu Oct 22 16:38:36 2020 +0100
 
       dealing with it
 
 commit 46b9d534a1484f0bb6ce71f72daf2304f25e1740 Merge: a11668f 8a93c07
-Author: fredd*** [fredd@](mailto:fredd@neosdev.com.br)*** Date:   Thu Oct 22 16:18:09 2020 +0100
+Author: fredd*** [fredd@](mailto:fredd@**********)*** Date:   Thu Oct 22 16:18:09 2020 +0100
 
       changes in these
 
-commit a11668f55720ab4c9526b587a0b5dae3c203c8ad Author: fredd*** [fredd@](mailto:fredd@neosdev.com.br)***** Date:   Thu Oct 22 16:17:29 2020 +0100 
+commit a11668f55720ab4c9526b587a0b5dae3c203c8ad Author: fredd*** [fredd@](mailto:fredd***********)***** Date:   Thu Oct 22 16:17:29 2020 +0100 
 
     fix something
 
