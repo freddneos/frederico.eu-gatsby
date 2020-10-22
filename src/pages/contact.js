@@ -21,12 +21,17 @@ const ContactPage = ({
         </div>
         <div>
 
-          <form className="form-container" name="contact" method="POST" data-netlify="true">
+          <form className="form-container" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/who-i-am">
+            <input type="hidden" name="form-name" value="contact" />
+
             <p>
-              <label>Your Name: <input type="text" name="name" /></label>
+              <label>Name: <input type="text" name="name" /></label>
             </p>
             <p>
-              <label>Your Email: <input type="email" name="email" /></label>
+              <label>Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <label>WhatsApp/Telegram: <input type="phone" name="phone" /></label>
             </p>
             <p>
               <label>Message: <textarea name="message"></textarea></label>
