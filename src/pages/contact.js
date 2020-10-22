@@ -31,9 +31,6 @@ const ContactPage = ({
               <label>Email: <input type="email" name="email" /></label>
             </p>
             <p>
-              <label>WhatsApp/Telegram: <input type="phone" name="phone" /></label>
-            </p>
-            <p>
               <label>Message: <textarea name="message"></textarea></label>
             </p>
             <div style={{ display: "flex", justifyContent: "flex-end" }}>
