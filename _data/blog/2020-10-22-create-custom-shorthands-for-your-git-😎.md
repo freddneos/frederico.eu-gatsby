@@ -32,15 +32,16 @@ Remember we are using the --global flag to change our configurations globally , 
 
 After the command above something like it will be open in your vscode :
 
-`[user]`
+```[user]
 
-`email= fredd@******`
+email= fredd@******
 
-`name= fredd********`
+name= fredd********
 
-`[core]`
+[core]
 
-`editor= code`
+editor= code
+```
 
 ### Talk is cheap let's do it : 
 
@@ -54,9 +55,11 @@ These bellow will be our commands to create shortcuts
 
 GIT COMMIT - GIT ADD - GIT PUSH - GIT LOG - GIT STATUS
 
-`[alias]`
+```
+[alias]
 
-`c = !git add --all && git commit -m`
+c = !git add --all && git commit -m
+```
 
 ### the command above structure is : 
 
@@ -74,15 +77,16 @@ GIT COMMIT - GIT ADD - GIT PUSH - GIT LOG - GIT STATUS
 
 `git c "shorthand git!!!"`
 
-wow \o/ GO ON
+### WOW \o/ GO ON
 
 the next is : 
 
-`[alias]`
+```[alias]
 
-`c = !git add --all && git commit -m`
+c = !git add --all && git commit -m
 
-`s = !git status -s`
+s = !git status -s
+```
 
 From now I will just explain little thing about the commands because the structure you already understood .(I think...)
 
@@ -94,12 +98,14 @@ after :
 
 ### will show :
 
-`On branch master Untracked files:
-  (use "git add <file>..." to include in what will be committed)`
+```
+On branch master Untracked files:
+  (use "git add <file>..." to include in what will be committed)
 
-`static/assets/draft.md`
+static/assets/draft.md
 
-`nothing added to commit but untracked files present (use "git add" to track)`
+nothing added to commit but untracked files present (use "git add" to track)
+```
 
 Our command : 
 
@@ -134,6 +140,7 @@ commit a11668f55720ab4c9526b587a0b5dae3c203c8ad Author: fredd*** [fredd@](mailto
 
 ### little messy here... not easy to understand , lets do something :
 
+
 ```bash
 [alias]
 c = !git add --all && git commit -m
@@ -163,7 +170,8 @@ l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C
 6505576 change in these - freddneos , 8 hours ago
 aa0e245 fix something - freddneos , 9 hours ago
 ```
-Final format of our file : 
+
+Final format of our file (.gitconfig) : 
 
 
 ```bash
@@ -178,6 +186,7 @@ Final format of our file :
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C(green)%cr'
 
 ```
+
 
 That is it Dudes , With simple lines of code you have all the power to be more productive in git routines, that is something that we need to do every time and a lot of times in our day.
 
