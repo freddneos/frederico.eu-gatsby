@@ -194,7 +194,7 @@ Final format of our file (.gitconfig) :
 That is it Dudes , With simple lines of code you have all the power to be more productive in git routines, that is something that we need to do every time and a lot of times in our day.
 
 Thanks for read this!!!
-God Luck and God bless You!!!
+Good Luck and God bless You!!!
 
 
 
