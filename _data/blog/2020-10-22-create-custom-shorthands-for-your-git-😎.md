@@ -16,7 +16,7 @@ In git we have a lot of powers and I will talk more about those  in future posts
 
 To create out shortcuts we will change our configuration file with --edit flag but one thing will happen , our loved and hated VIM will be called to edit... to avoid it to happen (sorry experts and old school devs whose love VIM) we need to change the default editor in git configuration.
 
-### lets do that :  
+### Changing it :  
 
 `git config --global core.editor code`
 
@@ -32,6 +32,7 @@ Remember we are using the --global flag to change our configurations globally , 
 
 After the command above something like it will be open in your vscode :
 
+
 ```[user]
 
 email= fredd@******
@@ -43,6 +44,7 @@ name= fredd********
 editor= code
 ```
 
+
 ### Talk is cheap let's do it : 
 
 first step add the tag alias in the end of file
@@ -53,7 +55,7 @@ after this tag we now will put ours shortcuts
 
 These bellow will be our commands to create shortcuts
 
-GIT COMMIT - GIT ADD - GIT PUSH - GIT LOG - GIT STATUS
+**GIT COMMIT - GIT ADD - GIT PUSH - GIT LOG - GIT STATUS**
 
 ```
 [alias]
@@ -149,6 +151,7 @@ l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C
 
 ```
 
+
 **--pretty=format:** -> flag to create a format pattern
 
 **%h** -> short hash of the commit
@@ -163,7 +166,7 @@ l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C
 
 **%C(blue)** -> Colors , colors everywhere , change text colors with this!
 
-### Oh my God .. look this bellow :
+### Oh my God .. look at this bellow :
 
 ```bash
 7a37d7e make it work - freddneos , 8 hours ago
