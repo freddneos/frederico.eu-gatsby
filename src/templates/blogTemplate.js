@@ -16,6 +16,7 @@ export default function Template({
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
+      <div className="s9-widget-wrapper"></div>
         <article className="post">
           
           {!frontmatter.thumbnail && (

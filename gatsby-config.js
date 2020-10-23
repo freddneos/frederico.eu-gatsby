@@ -16,6 +16,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-social9-socialshare`,
+      options: {
+        async: true,
+        defer: true,
+        content: `0e9d82fe867143aa99bae83141be7d75`,
+      },
+    }
+    ,
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [{
@@ -53,7 +62,7 @@ module.exports = {
         icon: "src/images/avatar.jpeg",
       },
     },
-    `gatsby-plugin-sass`, 
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-netlify-cms`,
     'gatsby-plugin-dark-mode',
