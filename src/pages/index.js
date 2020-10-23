@@ -20,7 +20,7 @@ const IndexPage = ({
     <Layout>
       <Helmet>
         <title>{site.siteMetadata.title}</title>
-        <meta name="description" content={site.siteMetadata.description} />
+        <meta name="Frederico.EU" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>
