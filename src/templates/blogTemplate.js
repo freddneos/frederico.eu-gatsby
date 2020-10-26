@@ -45,9 +45,9 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
-        <div>
+        
           <Disqus config={disqusConfig} />
-        </div>
+        
       </div>
     </Layout >
   )
