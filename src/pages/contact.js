@@ -21,7 +21,7 @@ const ContactPage = ({
         </div>
         <div>
 
-          <form className="form-container" name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/who-i-am">
+          <form className="form-container" netlify-honeypot="bot-field"  name="contact" method="POST" data-netlify="true" data-netlify-recaptcha="true" action="/who-i-am">
             <input type="hidden" name="form-name" value="contact" />
 
             <p>
