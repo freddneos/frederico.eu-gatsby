@@ -53,7 +53,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-disqus`,
       options: {
-        shortname: `https://frederico-eu.disqus.com/`
+        shortname: `frederico-eu`
       }
     },
     {
