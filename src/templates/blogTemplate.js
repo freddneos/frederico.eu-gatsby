@@ -11,8 +11,9 @@ export default function Template({
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
 
-  const disqusConfig = {
-    url: `${frontmatter.path}`,
+
+  let disqusConfig = {
+    url: `https://frederico.eu/${frontmatter.path}`,
     identifier: frontmatter.path,
     title: frontmatter.title,
   }
@@ -44,7 +45,9 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
-        <Disqus config={disqusConfig} />
+        <div>
+          <Disqus config={disqusConfig} />
+        </div>
       </div>
     </Layout >
   )
