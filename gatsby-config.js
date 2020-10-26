@@ -51,6 +51,12 @@ module.exports = {
       }
     },
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `frederico-eu`
+      }
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Frederico.EU Blog`,

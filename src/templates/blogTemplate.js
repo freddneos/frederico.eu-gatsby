@@ -1,6 +1,7 @@
 import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
+import { Disqus } from 'gatsby-plugin-disqus'
 import Layout from "../components/layout"
 
 export default function Template({
@@ -9,6 +10,13 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+
+  const disqusConfig = {
+    url: `${frontmatter.path}`,
+    identifier: frontmatter.path,
+    title: frontmatter.title,
+  }
+
   return (
     <Layout>
       <Helmet>
@@ -16,9 +24,9 @@ export default function Template({
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
-      <div className="s9-widget-wrapper"></div>
+        <div className="s9-widget-wrapper"></div>
         <article className="post">
-          
+
           {!frontmatter.thumbnail && (
             <div className="post-thumbnail">
               <h1 className="post-title">{frontmatter.title}</h1>
@@ -26,7 +34,7 @@ export default function Template({
             </div>
           )}
           {!!frontmatter.thumbnail && (
-            <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
+            <div className="post-thumbnail" style={{ backgroundImage: `url(${frontmatter.thumbnail})` }}>
               <h1 className="post-title">{frontmatter.title}</h1>
               <div className="post-meta">{frontmatter.date}</div>
             </div>
@@ -36,8 +44,9 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
+        <Disqus config={disqusConfig} />
       </div>
-    </Layout>
+    </Layout >
   )
 }
 
