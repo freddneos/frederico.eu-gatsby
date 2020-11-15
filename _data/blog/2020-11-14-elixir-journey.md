@@ -10,12 +10,12 @@ thumbnail: /assets/blog.jpeg
 ---
 Hello guys, 
 
-Today I'll start a blog series to share my experience with Elixir learning path.
+Today I'll start a blog series to share my Elixir learning path experience.
 
 In this post you will find :
 
 * My Vision
-* What a hell is Elixir ?
+* What is Elixir?
 * Why Elixir
 * My first month with Elixir
 
@@ -27,20 +27,20 @@ With the advent of 5G ,I had a vision, a kind of daydream about the future of te
 
 To summarize my vision I will ask some questions:
 
-* What can a mobile internet up to 100x faster than the current one provides?
+* What can a mobile internet up to 100x faster than the current one provide?
 * Will smart devices take over the world?
 * How much processing power do I need to process petabytes of information?
 * How to make all this processing fault-tolerant and deliver something concise at the end of this processing volume?
 * How to process all this volume of data without spending thousands of dollars on computer resources?
-* I'm prepared?
+* Am I  prepared?
 
-I know some questions have nothing to do with others but it brought me an awareness of the future and the present that caught my attention.
+I know some of these questions have nothing to do with each other but it brought me an awareness of the future and the present that caught my attention.
 
 Will the stack I use today be applicable to the questions above? This question scared me a lot. We as technology professionals know that in our industry everything has a very short lifespan.
 
-Please reflect on these questions above, as this will help us with the points that are following. let's understand why I decided to study elixir and functional programming.
+Please reflect on these questions above, as this will help us with the following points. let me explain why I decided to study elixir and functional programming.
 
-## What a hell is Elixir ?
+## What is Elixir ?
 
 Based on wikipedia is it : 
 
@@ -62,13 +62,13 @@ You can Find out more :
 * <https://elixir-lang.org/>
 * [https://joyofelixir.com/toc.html](https://elixir-lang.org/)
 
-It is a language that runs on Earlang VM Created by José Valim (Brazillian guy)(Claps)
+It is a language that runs on Earlang VM and was  Created by José Valim (Brazillian guy)(Claps)
 
 ## Why Elixir
 
 [![](http://img.youtube.com/vi/EXE7NUxBKrk/0.jpg)](http://www.youtube.com/watch?v=EXE7NUxBKrk)
 
-Elixir was created to turn the developer experience good than ruby is. Elixir is Dynamic and it is a good thing for those who develop with javascript.
+Elixir was created to make the developer experience better than ruby's. Elixir is Dynamic, wich is a good thing for those who develop with Javascript.
 
 You can check it bellow:
 
@@ -159,18 +159,17 @@ OpenX, SITA.[17][18]
 
 WhatsApp Vocalink (a MasterCard company), Goldman Sachs, Nintendo, AdRoll, Grindr, BT Mobile, Samsung, OpenX and much more...
 
-## My first month planning
+## My first month with Elixir
 
-My first month planing starts with the language site documentation and other resources : 
+My first month plan starts with the language site documentation and a few other resources : 
 
 * [Oficial site : https://elixir-lang.org/getting-started/introduction.html](https://elixir-lang.org/getting-started/introduction.html)
 * [ELX pro BR video series Youtube](https://www.youtube.com/playlist?list=PLEs0qgZpGeOVQFnsN9t93rr5KjlKGU2oS)
 * [Elixir in Action PDF Book](https://www.amazon.com/Elixir-Action-Sa%C5%A1a-Juri-cacute/dp/161729201X)
 
-That's my resources for the next 45 days (or less). After that a new blog post will be shared with my learning experience.
-Probally in the middle of it I will share some post about these resources.
+These are my resources for the next 45 days (or less). After that a new blog post will be shared with my learning experience and a probaly in the middle of it I will share some posts about these resources.
 
-Thanks your audience and follow me on my social media : 
+Thanks for your audience and follow me on my social media : 
 
 * [Github](https://github.com/freddneos)
 * [Linkedin](https://www.linkedin.com/in/fredericobezerra/)
