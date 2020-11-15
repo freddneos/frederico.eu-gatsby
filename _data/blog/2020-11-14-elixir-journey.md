@@ -19,6 +19,8 @@ In this post you will find :
 * Why Elixir
 * My first month with Elixir
 
+Follow my journey here : <https://github.com/freddneos/elixir-journey-start>
+
 ## My Vision
 
 ![](/assets/I93-Corridor.jpg "Future vision")
