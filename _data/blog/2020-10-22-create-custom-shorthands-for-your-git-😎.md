@@ -3,7 +3,7 @@ template: BlogPost
 path: /git-config
 date: 2020-10-22T21:13:57.157Z
 title: "Create custom shorthands for your git \U0001F60E"
-metaDescription: "Create custom shorthands for your git \U0001F60E"
+metaDescription: ''
 thumbnail: /assets/comandos-git.png
 ---
 Maybe you are thinking "Oh my God more one git article..."  and yep, it is more one git article, but please stay here , this is a short article I am sure of these tricks will help you to save some time to procrastinate more... just kidding , but I'm serious... :D
