@@ -3,12 +3,14 @@ template: BlogPost
 path: /git-config
 date: 2020-10-22T21:13:57.157Z
 title: "Create custom shorthands for your git \U0001F60E"
-metaDescription: ''
+metaDescription: "Create custom shorthands for your git \U0001F60E"
 thumbnail: /assets/comandos-git.png
 ---
 Maybe you are thinking "Oh my God more one git article..."  and yep, it is more one git article, but please stay here , this is a short article I am sure of these tricks will help you to save some time to procrastinate more... just kidding , but I'm serious... :D
 
 
+
+![](/assets/git_capa-1-1024x653.jpeg)
 
 ### Let's start to the beginning.
 
@@ -16,7 +18,7 @@ In git we have a lot of powers and I will talk more about those  in future posts
 
 To create shorthands we will change our configuration file with --edit flag but one thing will happen , our loved and hated VIM will be called to edit it... to avoid it to happen (sorry experts and old school devs whose love VIM) we need to change the default editor in git configuration.
 
-### Changing it :  
+### Changing it :
 
 `git config --global core.editor code`
 
@@ -32,9 +34,7 @@ Remember we are using the --global flag to change our configurations globally , 
 
 After the command above something like it will be open in your vscode :
 
-
-```[user]
-
+```\[user]
 email= fredd@******
 
 name= fredd********
@@ -44,8 +44,7 @@ name= fredd********
 editor= code
 ```
 
-
-### Talk is cheap let's do it : 
+### Talk is cheap let's do it :
 
 first step add the tag alias in the end of file
 
@@ -63,7 +62,7 @@ These bellow will be our commands to create shortcuts
 c = !git add --all && git commit -m
 ```
 
-### the command above structure is : 
+### the command above structure is :
 
 **c** -> the alias itself
 
@@ -75,7 +74,7 @@ c = !git add --all && git commit -m
 
 **git commit -m** -> I think I don't need to explain that... huh ?
 
-### NICE :D with only a short command we add all files independent of the level and commit everything like that : 
+### NICE :D with only a short command we add all files independent of the level and commit everything like that :
 
 `git c "shorthand git!!!"`
 
@@ -83,8 +82,7 @@ c = !git add --all && git commit -m
 
 the next is : 
 
-```[alias]
-
+```\[alias]
 c = !git add --all && git commit -m
 
 s = !git status -s
@@ -123,7 +121,7 @@ Very easy to understand and see what you need...
 
 after our shortcut that is the output of the command :
 
-```bash 
+```bash
 commit 38a0c81fee06c009be2a714b6551be5e5a3ce5e7 Author: fredd**** fredd@*(mailto:fredd@**********)*** Date:   Thu Oct 22 16:38:36 2020 +0100
 
       dealing with it
@@ -136,23 +134,18 @@ Author: fredd*** [fredd@](mailto:fredd@**********)*** Date:   Thu Oct 22 16:18:0
 commit a11668f55720ab4c9526b587a0b5dae3c203c8ad Author: fredd*** [fredd@](mailto:fredd***********)***** Date:   Thu Oct 22 16:17:29 2020 +0100 
 
     fix something
-
 ```
 
-
 ### little messy here... not easy to understand , lets do something :
-
 
 ```bash
 [alias]
 c = !git add --all && git commit -m
 s = !git status -s
 l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C(green)%cr'
-
 ```
 
-
-**--pretty=format:** -> flag to create a format pattern
+**\--pretty=format:** -> flag to create a format pattern
 
 **%h** -> short hash of the commit
 
@@ -176,7 +169,6 @@ aa0e245 fix something - freddneos , 9 hours ago
 
 Final format of our file (.gitconfig) : 
 
-
 ```bash
 [user]
 	email = fredd@*****
@@ -187,7 +179,6 @@ Final format of our file (.gitconfig) :
 	c = !git add --all && git commit -m
 	s = !git status -s
 	l = !git log --pretty=format:'%C(blue)%h%C(red)%d %C(white)%s - %C(cyan)%cn , %C(green)%cr'
-
 ```
 
 File Gist ->  [Gist]("https://gist.github.com/freddneos/a650daaccdf5f5a6c03d751f70792d3a.js")
@@ -196,8 +187,4 @@ That is it Dudes , With simple lines of code you have all the power to be more p
 
 Go on and create others shorthands
 
-Thanks for read this!!!
-Good Luck and God bless You!!!
-
-
-
+Thanks for read this!!! Good Luck and God bless You!!!
